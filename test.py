@@ -28,7 +28,7 @@ mycursor.execute("SELECT * FROM Person")
 #print(mycursor.fetchone())
 #mycursor.execute("SELECT id FROM Test WHERE gender = 'M' ORDER BY id DESC")
 
-for x in mycursor:
-  print(x)
+#for x in mycursor:
+ # print(x)
 
 #db.commit()
